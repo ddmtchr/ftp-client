@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="FTPClientTestSuite">
+    <test name="ConnectionTests">
+        <classes>
+            <class name="com.ddmtchr.ConnectionTest"/>
+        </classes>
+    </test>
+    <test name="JSONParserTests">
+        <classes>
+            <class name="com.ddmtchr.JSONParserTest"/>
+        </classes>
+    </test>
+    <test name="StudentOperationsTests">
+        <classes>
+            <class name="com.ddmtchr.CrudTest"/>
+        </classes>
+    </test>
+</suite>

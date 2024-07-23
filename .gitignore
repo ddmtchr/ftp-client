@@ -1,0 +1,6 @@
+./ftp-client/.idea
+./ftp-client/target
+./ftp-client-tests/.idea
+./ftp-client-tests/target
+
+.idea
